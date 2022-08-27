@@ -47,6 +47,10 @@ body {
 .link:active {
     color: var(--accent-color);
 }
+.list .active{
+    color: var(--accent-color);
+}
+
 
 .menu-nav {
     font-weight: 500;
@@ -77,6 +81,7 @@ body {
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
     color: var(--secondary-text-color);
 }
 
@@ -84,8 +89,6 @@ body {
     font-family: inherit;
     font-size: 16px;
     line-height: 2;
-    display: flex;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
@@ -96,7 +99,6 @@ body {
 
 /*--Переваги компанії-*/
 .sub-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -123,31 +125,30 @@ body {
     background-color: #f5f4fa;
 }
 
-.team-names {
+.name-team {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 /*--Професії команди--*/
-.team-professions {
+.professions-team {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
 /*--підвал--*/
-footer {
+.footer {
     background-color: var(--secondary-bgd-color);
+          
 }
 
 .logo-wight {
@@ -156,19 +157,18 @@ footer {
 
 .adress {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: var(--secondary-text-color);
 }
 
 .contacts-footer {
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     ;
 }
@@ -176,7 +176,7 @@ footer {
 /* Portfolio CSS */
 
 .portfolio-button {
-    font-family: "Roboto", sans-serif;
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -205,7 +205,6 @@ footer {
 }
 
 .portfolio-title {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -214,7 +213,6 @@ footer {
 }
 
 .portfolio-text {
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 2;
     letter-spacing: 0.03em;
