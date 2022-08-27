@@ -47,13 +47,13 @@ body {
 .link:active {
     color: var(--accent-color);
 }
-
-.list {
-    list-style: none;
-}
 .list .active {
     color: var(--accent-color);
 }
+.list {
+    list-style: none;
+}
+
 
 .menu-nav {
     font-weight: 500;
