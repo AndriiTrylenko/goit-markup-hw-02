@@ -48,9 +48,7 @@ body {
     color: var(--accent-color);
 }
 
-.list {
-    list-style: none;
-}
+
 .list .active {
     color: var(--accent-color);
 }
