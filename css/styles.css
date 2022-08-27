@@ -48,10 +48,13 @@ body {
     color: var(--accent-color);
 }
 
-
 .list .active {
     color: var(--accent-color);
 }
+.list{
+    list-style: none;
+}
+
 
 
 .menu-nav {
